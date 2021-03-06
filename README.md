@@ -14,9 +14,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 <hr>
-
-### Made with ♥ by Maiqui Tomé 😀
-
+Made with ♥ by Maiqui Tomé 😀
 <br /><br />
 
 *Reach out to me* 👇
