@@ -1,0 +1,53 @@
+@media screen and (max-width: 400px) {
+  header a.logo h1 {
+    padding: 5px 0 0 0;
+  }
+  header nav ul li a {
+    font-size: 0.8rem;
+    margin-right: 0;
+    padding: 5px;
+  }
+  .btn {
+    max-width: 100px;
+  }
+  i {
+    margin-bottom: 10px;
+  }
+  .main-movie .description {
+    font-size: 0.6rem;
+  }
+  .main-movie .title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  header .container {
+    justify-content: center;
+  }
+
+  .main-movie .title {
+    margin: 0 auto;
+    padding-top: 20%;
+    padding-bottom: 20px;
+  }
+
+  .main-movie .description {
+    margin: 0 auto;
+    font-size: 0.9rem;
+    max-width: 80%;
+    margin-bottom: 10px;
+  }
+
+  main {
+    background: none;
+  }
+
+  .main-movie {
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/prison-break.jpg');
+    background-size: cover;
+    background-position: center top;
+  }
+}

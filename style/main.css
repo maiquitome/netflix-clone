@@ -1,0 +1,107 @@
+:root {
+  --red: #e50914;
+  --black: #141414;
+  --white: #fff;
+  --gray: #aaa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgba(0,0,0,.50);
+}
+
+header a.logo h1 {
+  font-size: 2.5rem;
+  color: var(--red);
+  padding: 10px;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  margin-right: 10px;
+  color: var(--white);
+  padding: 10px;
+  display: block;
+}
+
+header nav ul li a:hover {
+  color: var(--gray);
+}
+
+/* main movie */
+main {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/prison-break.jpg');
+  background-size: cover;
+  background-position: center top;
+}
+.main-movie .container {
+  padding: 0 10px;
+}
+.main-movie {
+  min-height: 350px;
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+
+.main-movie .description {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  max-width: 50%;
+}
+
+.main-movie .title {
+  padding-top: 10%;
+  font-size: 2.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+  background-color: rgba(0,0,0,.50);
+  border: none;
+  color: var(--white);
+  padding: 15px 30px;
+  margin-right: 15px;
+
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.btn:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+i {
+  margin-right: 5px;
+}
